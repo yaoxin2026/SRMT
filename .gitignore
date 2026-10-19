@@ -1,0 +1,16 @@
+
+# Solar data are distributed through Zenodo.
+/data/*
+!/data/.gitkeep
+/data.zip
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Locally generated outputs.
+/outputs/
+/fig_reproduced/
