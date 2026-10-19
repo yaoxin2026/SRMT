@@ -2,7 +2,7 @@
 
 SRMT extracts isosurfaces from scalar nodal values on fixed-resolution structured grids. Each active parent cell is divided into eight subcells and 48 tetrahedra, with additional nodal values obtained by trilinear interpolation. This provides finer surface triangulations without introducing new physical samples. The implementation supports serial execution and multiprocessing, using integer node and edge identifiers to assemble shared surface vertices.
 
-This repository contains the SRMT Python implementation, a standalone example, analytic benchmark results, and scripts for analysis and reproduction of the manuscript figures. The rendered figures are also included. The repository accompanies the manuscript *Subcell-refined marching tetrahedra for isosurface extraction from fixed-resolution structured grids: application to electron-cyclotron-frequency surfaces in solar coronal magnetic fields*.
+This repository contains the SRMT Python implementation, a standalone example, analytic benchmark results, and scripts for analysis and reproduction of the manuscript figures. The rendered figures are also included. The repository accompanies the manuscript "*Subcell-refined marching tetrahedra for isosurface extraction from fixed-resolution structured grids: application to electron-cyclotron-frequency surfaces in solar coronal magnetic fields*."
 
 ## Repository structure
 
